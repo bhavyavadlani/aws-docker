@@ -23,7 +23,7 @@ services:
     networks:
       - springboot-mysql-net
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysqldb:3306/projectdb
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysqldb:3306/moviedb
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: Bhavya@1   
 
